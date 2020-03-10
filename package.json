@@ -1,6 +1,6 @@
 {
   "name": "react-native-payments",
-  "version": "0.7.1",
+  "version": "1.0.1",
   "scripts": {
     "run:packager": "cd examples/native && yarn run:packager",
     "run:ios": "cd examples/native && yarn run:ios",
@@ -8,7 +8,7 @@
     "run:demo": "cd examples/native && yarn run:demo",
     "test": "jest"
   },
-  "repository": "https://github.com/naoufal/react-native-payments",
+  "repository": "https://github.com/byvan/react-native-payments",
   "keywords": [
     "react",
     "react-native",
@@ -32,8 +32,8 @@
     "react-test-renderer": "16.0.0-alpha.12"
   },
   "peerDependencies": {
-    "react": ">=15",
-    "react-native": ">=0.41"
+    "react": ">=16",
+    "react-native": ">=0.60"
   },
   "jest": {
     "testPathIgnorePatterns": [
